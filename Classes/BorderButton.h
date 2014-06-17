@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BorderButton : UIButton
+@interface BorderButton : UIButton {
+    CAShapeLayer *circleLayer;
+    UIColor *borderColor;
+}
+
+@property (nonatomic) UIEdgeInsets hitTestEdgeInsets;
+
+- (void)setupButton;
 
 @end

@@ -11,6 +11,7 @@
 		30649F6DD80E406B97D0ECF0 /* libPods-BorderButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55E7CC55444B20BE91A00B /* libPods-BorderButton.a */; };
 		71F92D2123D2485CA8724ADB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692A2F1382174E3C9D0390CA /* Foundation.framework */; };
 		78E2CE0C3B8146B48CF33B37 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6912824DFB384AE895AD217B /* Pods-dummy.m */; };
+		853DC79A1950F4DB00F0F8E6 /* CommentsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DC7991950F4DB00F0F8E6 /* CommentsButton.m */; };
 		9BC53352E933408889136D48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692A2F1382174E3C9D0390CA /* Foundation.framework */; };
 		DB89C11E18F6C43F00B68351 /* BorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB89C11D18F6C43F00B68351 /* BorderButton.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		4950C5EA228C4EA89D851CF8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		6912824DFB384AE895AD217B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		692A2F1382174E3C9D0390CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		853DC7981950F4DB00F0F8E6 /* CommentsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommentsButton.h; path = Classes/CommentsButton.h; sourceTree = "<group>"; };
+		853DC7991950F4DB00F0F8E6 /* CommentsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommentsButton.m; path = Classes/CommentsButton.m; sourceTree = "<group>"; };
 		973ADB9B459F46AEA2CFB7D6 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		A90989238DF644BB8E6F84A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB89C11C18F6C43F00B68351 /* BorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BorderButton.h; path = Classes/BorderButton.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 			children = (
 				DB89C11C18F6C43F00B68351 /* BorderButton.h */,
 				DB89C11D18F6C43F00B68351 /* BorderButton.m */,
+				853DC7981950F4DB00F0F8E6 /* CommentsButton.h */,
+				853DC7991950F4DB00F0F8E6 /* CommentsButton.m */,
 				E54C67BF5325406BB8BD0841 /* Support Files */,
 			);
 			name = BorderButton;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853DC79A1950F4DB00F0F8E6 /* CommentsButton.m in Sources */,
 				78E2CE0C3B8146B48CF33B37 /* Pods-dummy.m in Sources */,
 				DB89C11E18F6C43F00B68351 /* BorderButton.m in Sources */,
 			);

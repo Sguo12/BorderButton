@@ -8,12 +8,6 @@
 
 #import "BorderButton.h"
 
-@interface BorderButton () {
-    CAShapeLayer *circleLayer;
-    UIColor *borderColor;
-}
-- (void)setupButton;
-@end
 
 @implementation BorderButton
 
